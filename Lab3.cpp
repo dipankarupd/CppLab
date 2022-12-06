@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include <string>
 using namespace std;
@@ -13,7 +12,7 @@ class MyClass {
 
     public:
 
-    void getStirngs() {
+    void getStrings() {
 
         cout<<"Enter the string" <<endl;
         cin>> str;
@@ -65,7 +64,7 @@ int main() {
 
     MyClass c1;
 
-    c1.getStirngs();
+    c1.getStrings();
     c1.getReplaceStrings();
 
     string result = c1.patternReplace();
